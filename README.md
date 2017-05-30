@@ -12,6 +12,6 @@ Get the array of information about the address:
 `<array>` = `<objectname>`->address;
 
 Example:
-$latlng = new google_maps();
-$latlng->addnew("Damsterdiep, Groningen");
-$result = $latlng->address;
+$latlng = new google_maps();<br />
+$latlng->addnew('Damsterdiep, Groningen');<br />
+$result = $latlng->address;<br />
