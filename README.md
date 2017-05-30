@@ -11,7 +11,7 @@ Now you can add addresses you want to be converted:
 Get the array of information about the address:
 `<array>` = `<objectname>`->address;
 
-Example:
+<Strong>Example:</strong><br /><br />
 $latlng = new google_maps();<br />
 $latlng->addnew('Damsterdiep, Groningen');<br />
 $result = $latlng->address;<br />
